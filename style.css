@@ -41,3 +41,46 @@ html {
   display: inline-block;
   margin: auto;
 }
+
+.header-part1 {
+  display: inline-block;
+}
+
+.header-part2 {
+  display: inline-block;
+}
+
+.header-link {
+  font-size: 1.7rem;
+  margin: auto 1.2rem;
+  text-decoration: none;
+  color: #9ba3b4;
+}
+
+.header-link:hover {
+  color: #e9eaeb;
+}
+
+.first-header-link {
+  margin-left: 4rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-back button {
+  border-radius: 10%;
+}
+
+.header-back input {
+  padding: 0.5rem 0.5rem;
+  border-radius: 10%;
+}
+
+.header-btn {
+  color: #fff;
+  background-color: #0078d4;
+  padding: 1rem 1rem;
+}
