@@ -9,33 +9,46 @@
   </head>
   <body>
     <!-- navbar -->
-    <div>
-      <div>
-        <img src="./assets/images/logo.png" alt="logo" />
-        <span>Visual Studio Code</span>
-        <ul>
-          <li>Docs</li>
-          <li>Updates</li>
-          <li>Blog</li>
-          <li>API</li>
-          <li>Extentions</li>
-          <li>FAQ</li>
-          <li>Learn</li>
+    <div class="navbar">
+      <div class="navbar-left">
+        <img
+          class="navbar-brand-img"
+          src="./assets/images/logo.png"
+          alt="logo"
+        />
+        <span class="navbar-brand-name">Visual Studio Code</span>
+        <ul class="nav-links">
+          <li><a class="nav-link" href="#">Docs</a></li>
+          <li><a class="nav-link" href="#">Updates</a></li>
+          <li><a class="nav-link" href="#">Blog</a></li>
+          <li><a class="nav-link" href="#">API</a></li>
+          <li><a class="nav-link" href="#">Extentions</a></li>
+          <li><a class="nav-link" href="#">FAQ</a></li>
+          <li><a class="nav-link" href="#">Learn</a></li>
         </ul>
       </div>
-      <div>
-        <button>
-          <img src="./assets/icons/theme-light.svg" alt="sun icon" />
+      <div class="navbar-right">
+        <button class="theme-light-button">
+          <img
+            class="theme-light-img"
+            src="./assets/icons/theme-light.svg"
+            alt="sun icon"
+          />
         </button>
         <div>
           <form action="#">
             <button type="submit">
               <img src="./assets/icons/search.svg" alt="search" />
             </button>
-            <input id="" type="text" placeholder="Search Docs" />
+            <input
+              class="search-docs-btn"
+              id=""
+              type="text"
+              placeholder="Search Docs"
+            />
           </form>
         </div>
-        <a href="#"> Download </a>
+        <a class="navbar-download-btn" href="#"> Download </a>
       </div>
     </div>
 
