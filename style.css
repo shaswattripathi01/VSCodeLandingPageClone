@@ -58,8 +58,11 @@
 }
 
 .theme-light-button {
+  position: relative;
+  left: 15px;
   background: none;
   border: none;
+  border-radius: 10%;
   background-color: #0e0e0e;
   height: 30px;
   width: 30px;
@@ -93,12 +96,23 @@
   margin-left: 5px;
 }
 
-.search-docs-btn {
+.search-docs-input {
   border: none;
-  margin-top: 10px;
-  padding: 5px 0px 5px 12px;
-  height: 31.6px;
+  margin-top: 13px;
+  padding: 10px 0px 5px 12px;
+  height: 30px;
   width: 200px;
   background-color: inherit;
   border: 1px white;
+}
+
+.search-docs-btn {
+  position: relative;
+  left: 25px;
+  background-color: inherit;
+  border: none;
+}
+
+.search-docs-input::placeholder {
+  text-indent: 10%;
 }
