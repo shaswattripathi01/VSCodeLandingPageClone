@@ -4,10 +4,10 @@
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #0e0e0e;
 }
 
 .navbar {
-  background-color: #0e0e0e;
   position: sticky;
   top: 0;
   border-bottom: 0.8px solid;
@@ -79,6 +79,11 @@
   background-color: #333;
 }
 
+.navbar {
+  position: sticky;
+  top: 0;
+}
+
 .navbar-right {
   display: flex;
 }
@@ -115,4 +120,107 @@
 
 .search-docs-input::placeholder {
   text-indent: 10%;
+}
+
+.version-dec {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 160%;
+  color: #9ba3b4;
+}
+
+.version-dec-num {
+  color: #4daafc;
+  text-decoration: underline;
+}
+
+.first-main-sec {
+  display: flex;
+  color: #e9eaeb;
+  margin-left: 50px;
+  margin-right: 100px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.first-main-sec-left {
+  width: 50vh;
+}
+
+.first-main-sec-left {
+  width: 33.33333%;
+  margin-top: 3rem;
+  padding: 10px;
+}
+
+.product-img {
+  height: 508px;
+  width: 800px;
+}
+
+.product-img-container {
+  margin-top: 30px;
+  margin-left: 70px;
+}
+
+.product-desc {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 12px;
+  border-radius: 32px;
+  background-color: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  color: var(--foreground);
+  width: max-content;
+}
+
+.product-claim {
+  font-size: 56px;
+  margin-top: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+  margin-bottom: 32px;
+  color: #e9eaeb;
+}
+
+.product-download {
+  display: block;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  padding: 12px 24px;
+  background-color: #0078d4;
+}
+
+.product-download-link {
+  text-decoration: none;
+  background-color: #0078d4;
+  color: #fff;
+}
+
+.link {
+  font-size: 14px;
+  margin: 16px 0 8px 0;
+  background-color: transparent;
+  line-height: 5px;
+  text-decoration: none;
+  color: #4daafc;
+}
+
+.link-container {
+  margin-top: 10px;
+}
+
+.licence-privacy-link-para {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 150%;
+  margin-top: 10px;
+  color: #9ba3b4;
+}
+
+.licence-privacy-link {
+  color: #4daafc;
 }
